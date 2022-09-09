@@ -1,0 +1,32 @@
+.productItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .product {
+        padding: 10px 6px 0 6px;
+        height: 100%;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 2px 10px 0 #ededed;
+        .actions {
+            .removeBasket, .addBasket {
+                background-color: #DC143C;
+                color: white;
+                border: 0;
+                width: 30%;
+                height: 40px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            :disabled {
+                background-color: #ddd;
+                color: #bfbfbf;
+                cursor: no-drop;
+            }
+            .addBasket {
+                background-color: #2dc44d;
+            }
+        }
+    }
+}

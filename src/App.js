@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import TodoApp from "./pages/TodoApp";
+import Money from "./pages/Money"
+import Login from "./pages/Login"
+import NoPage404 from "./pages/NoPage404";
+import Profile from "./pages/Profile";
+import '../src/scss/App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+          <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="todo" element={<TodoApp />} />
+              <Route path="money" element={<Money />} />
+              <Route path="login" element={<Login />} />
+              <Route path="profile" element={<Profile />} />
+              <Route path="*" element={<NoPage404 />} />
+          </Route>
+      </Routes>
     </div>
-  );
+)
 }
 
 export default App;

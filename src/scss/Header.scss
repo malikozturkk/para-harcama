@@ -1,0 +1,41 @@
+.headerNav {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 25%);
+    justify-content: center;
+    .container {
+        width: 1000px;
+        max-width: 100%;
+        display: flex;
+        .headerLogoLink {
+            border:none;
+        }
+    }
+    .headerNavLink {
+        text-decoration: none;
+        width: 33.33%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &:hover {
+            border-bottom: 1px solid #DC143C;
+        }
+        .headerNavLinks {
+            color: #53605e;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            .headerLogo {
+                width: 60%;
+            }
+        }
+    }
+    .active {
+        border-bottom: 1px solid #DC143C;
+    }
+}

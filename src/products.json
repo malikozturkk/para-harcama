@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Peugeot 407 1.6 HDi Comfort",
+        "price": 187000,
+        "image": "https://i0.shbdn.com/photos/60/39/43/x5_1037603943bnd.jpg"
+    },
+    {
+        "id": 2,
+        "title": "BMW 730d Standart",
+        "price": 865000,
+        "image": "https://i0.shbdn.com/photos/59/60/50/x5_1037596050k93.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Porsche Macan 2.0",
+        "price": 3570000,
+        "image": "https://i0.shbdn.com/photos/36/16/50/x5_10423616505fp.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Volvo XC90 2.0 B5 Inscription",
+        "price": 3300000,
+        "image": "https://i0.shbdn.com/photos/96/63/24/x5_1034966324gb4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Audi Q7 2.0 TFSI Quattro",
+        "price": 2320000,
+        "image": "https://i0.shbdn.com/photos/25/37/59/x5_1034253759402.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Volkswagen Golf 1.0 eTSI Life",
+        "price": 785000,
+        "image": "https://i0.shbdn.com/photos/90/05/61/x5_1032900561n06.jpg"
+    }
+]
